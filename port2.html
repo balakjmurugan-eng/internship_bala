@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balamurugan J - Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        nav{
+            background:#222;
+            padding:15px;
+            text-align:center;
+            position:sticky;
+            top:0;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#00bcd4;
+        }
+
+        .header{
+            background:linear-gradient(135deg,#0077b6,#00b4d8);
+            color:white;
+            text-align:center;
+            padding:80px 20px;
+        }
+
+        .header h1{
+            font-size:50px;
+            margin-bottom:15px;
+        }
+
+        .header h3{
+            margin-bottom:10px;
+        }
+
+        .container{
+            width:85%;
+            margin:auto;
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            margin:25px 0;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            color:#0077b6;
+            margin-bottom:15px;
+            border-bottom:3px solid #0077b6;
+            padding-bottom:5px;
+        }
+
+        p{
+            line-height:1.8;
+        }
+
+        ul{
+            margin-left:30px;
+            line-height:2;
+            font-size:18px;
+        }
+
+        .project{
+            background:#eef8ff;
+            padding:15px;
+            margin-top:15px;
+            border-left:5px solid #0077b6;
+            border-radius:5px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        th{
+            background:#0077b6;
+            color:white;
+            text-align:left;
+            width:30%;
+        }
+
+        th,td{
+            border:1px solid #ccc;
+            padding:12px;
+        }
+
+        tr:nth-child(even){
+            background:#f2f2f2;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:20px;
+        }
+
+        @media(max-width:768px){
+
+            nav a{
+                display:block;
+                margin:10px;
+            }
+
+            .header h1{
+                font-size:35px;
+            }
+
+            .container{
+                width:95%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="header">
+    <h1>Balamurugan J</h1>
+    <h3>BE Computer Science and Engineering Student</h3>
+    <p>Web Developer | Programmer | AI & ML Enthusiast</p>
+</div>
+
+<div class="container">
+
+    <div class="card" id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I am <b>Balamurugan J</b>, currently pursuing
+            <b>Bachelor of Engineering in Computer Science and Engineering (BE CSE)</b>
+            at <b>RMKCET College</b>.
+        </p>
+
+        <br>
+
+        <p>
+            I am passionate about programming, web development,
+            and Artificial Intelligence. I enjoy solving coding
+            problems and learning new technologies to enhance my
+            technical knowledge and practical skills.
+        </p>
+    </div>
+
+    <div class="card" id="education">
+        <h2>Education</h2>
+
+        <ul>
+            <li><b>Degree :</b> Bachelor of Engineering</li>
+            <li><b>Department :</b> Computer Science and Engineering</li>
+            <li><b>College :</b> RMKCET College</li>
+        </ul>
+    </div>
+
+    <div class="card" id="skills">
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Artificial Intelligence and Machine Learning (AI & ML)</li>
+            <li>Python for AI & ML Applications</li>
+        </ul>
+    </div>
+
+    <div class="card" id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <br>
+            <p>
+                Developed a personal portfolio website using
+                HTML and CSS to showcase my education,
+                skills, and projects.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Machine Learning Projects</h3>
+            <br>
+            <p>
+                Built AI and Machine Learning models using
+                Python for data analysis and prediction tasks.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Programming Applications</h3>
+            <br>
+            <p>
+                Solved coding problems and developed applications
+                using Java, Python, and C++.
+            </p>
+        </div>
+    </div>
+
+    <div class="card" id="contact">
+        <h2>Contact Me</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Balamurugan J</td>
+            </tr>
+
+            <tr>
+                <th>Degree</th>
+                <td>BE Computer Science and Engineering</td>
+            </tr>
+
+            <tr>
+                <th>College</th>
+                <td>RMKCET College</td>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td><a href="mailto:balakjmurugan@gmail.com">balakjmurugan@gmail.com</a></td>
+            </tr>
+
+            <tr>
+                <th>Phone</th>
+                <td><a href="tel:8122811003">8122811003</a></td>
+            </tr>
+
+            <tr>
+                <th>Technical Skills</th>
+                <td>HTML, CSS, Java, Python, C++, AI & ML</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <p>
+            <b>Career Objective:</b> To obtain a challenging position
+            in the field of software development and Artificial
+            Intelligence where I can utilize my technical and
+            problem-solving skills while continuously learning and
+            contributing to innovative projects.
+        </p>
+
+    </div>
+
+</div>
+
+<footer>
+    <h3>© 2026 Balamurugan J</h3>
+    <br>
+    <p>BE CSE Student | RMKCET College</p>
+</footer>
+
+</body>
+</html>
